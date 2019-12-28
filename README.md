@@ -1,2 +1,1 @@
 ##  Serie Temporais
-##
