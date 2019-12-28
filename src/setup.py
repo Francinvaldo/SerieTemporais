@@ -1,3 +1,3 @@
 from setuptools import setup
 from setuptools import find_packages
-setup(name="project",version=0.01)
+setup(name="SerieTemporais",version=0.1)
