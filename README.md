@@ -1,1 +1,1 @@
-##  Serie Temporais
+##  Serie Temporal
