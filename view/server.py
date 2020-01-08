@@ -1,7 +1,17 @@
 from flask import Flask
+from flask import render_template
+
+
 app = Flask(__name__)
-@app.route("/")
+
+teste = 554
+
+@app.route('/')
 def index():
-    return "Serie temporais"
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", debug=True)
+    return render_template("index.html",message="testa a message rtrete",contatos=['c1','c2','c3']
+    ,teste=teste)
+
+
+
+if __name__ ==  '__main__':
+    app.run(debug=True,host='0.0.0.0')
